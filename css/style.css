@@ -254,6 +254,23 @@ img {
 	background-color: #FFF;
 }
 
+/* VIDEOS */
+.videos {
+	background: #333333;
+	color: #FFFFFF;
+	min-height: 360px;
+	padding: 80px 40px;
+	position: relative;
+}
+.videos h1 {
+	letter-spacing: .14em;
+	text-transform: uppercase;
+}
+.videos h2 {
+	font-size: 1em;
+	letter-spacing: .14em;
+}
+
 /* SERVICES */
 .services {
 	background: #111111;
@@ -330,6 +347,9 @@ img {
 	right: 0;
 	bottom: 0;
 	left: 0;
+}
+.mobile-img {
+	display: none;
 }
 
   /* TESTIMONIAL */
@@ -545,7 +565,6 @@ ul.social-buttons li {
 		display: flex;
 		margin: 0 auto;
 	}
-
 		#toggle {
 			width: 20px;
 			height: 20px;
@@ -574,12 +593,10 @@ ul.social-buttons li {
 	.one-third.column {
 		width: 100%;
 	}
-.column, .columns {margin-left: 0%;}
-
+	.column, .columns {margin-left: 0%;}
 	.hero {
 		min-height: 480px;
 	}
-
 	.hero h2 {
 		font-size: 1.3em;
 	}
@@ -589,21 +606,21 @@ ul.social-buttons li {
 	.button-primary {
 		display: none;
 	}
-
 	.six.columns img {
 		margin-bottom: 40px;
 	}
-
 	h1.separator {
 		font-size: 2em;
 		letter-spacing: .2em;
 	}
-
 	.one-half.column,
 	.one-third.column.fit {
 		position: relative;
 		width: 100%;
-	};
+	}
+	.mobile-img {
+		display: block;
+	}
 
 }
 @media screen and (max-width: 480px) {
