@@ -262,14 +262,6 @@ img {
 	padding: 80px 40px;
 	position: relative;
 }
-.videos h1 {
-	letter-spacing: .14em;
-	text-transform: uppercase;
-}
-.videos h2 {
-	font-size: 1em;
-	letter-spacing: .14em;
-}
 
 /* SERVICES */
 .services {
