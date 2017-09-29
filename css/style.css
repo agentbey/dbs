@@ -52,7 +52,7 @@ img{border-style:none;max-width:100%;height:auto;}
 .features h2.separator:before{background-color:#FFF;}
 .videos{background:#333333;color:#FFFFFF;min-height:360px;padding:80px 40px;position:relative;}
 .services{background:#111111;color:#FFFFFF;min-height:360px;padding:80px 40px;position:relative;}
-.services-image{background:url("../images/pexels-photo-209968.jpg") no-repeat;background-size:cover;background-position:50% 50%;background-color:#4a4a4a;position:absolute;top:0;right:0;bottom:0;left:0;opacity: .04;}
+.services-image{background:url("../images/pexels-photo-209968.jpg") no-repeat;background-size:cover;background-position:50% 50%;background-color:#4a4a4a;position:absolute;top:0;right:0;bottom:0;left:0;opacity: .1;}
 .services h1{letter-spacing:.14em;text-transform:uppercase;}
 .services h2{font-size:1em;letter-spacing:.14em;}
 .dumbbell{background:url("../images/dumbbell.svg") no-repeat;display:block;width:100px;height:100px;margin:20px auto;}
