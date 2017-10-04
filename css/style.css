@@ -89,7 +89,7 @@ ul.social-buttons li{display:inline;padding:20px;margin-bottom:0;}
 .flex-grid-thirds{display:flex;justify-content:space-between;margin:20px;}
 .flex-grid-thirds .col{width:32%;}
 *{box-sizing:border-box;}
-.col{background:#FFFFFF;}
+
 .scrollToTop{background:rgba(12, 6, 3, 0.7);border-radius:8px;cursor:pointer;display:none;position:fixed;bottom:20px;right:40px;text-align:center;}
 .scrollToTop a{color:#FFFFFF;text-decoration:none;font-size:12px;font-weight:600;line-height:40px;padding:0px 10px;}
 @media (max-width:1024px){.flex-grid,
