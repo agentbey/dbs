@@ -7,7 +7,9 @@ h3{font-size:1em;letter-spacing:.14em;line-height:1.4;}
 .boxed{border:1px solid #D4874A;padding:10px;width:200px;margin:0 auto 60px;}
 .zero-padding{padding:0!important;}
 @media (min-width:550px){.one-half.column{width:50%;}
+.four.columns {width: 21.666667%;}
 }
+
 header{background-color:#000;}
 #topbar{background:#f1f1f1;padding:10px;}
 #topbar p{color:#555;margin:0;text-align:center;}
@@ -61,6 +63,7 @@ img{border-style:none;max-width:100%;height:auto;}
 .plate{background:url("../images/plate.svg") no-repeat;display:block;width:100px;height:100px;margin:20px auto;}
 .shaker{background:url("../images/shaker.svg") no-repeat;display:block;width:100px;height:100px;margin:20px auto;}
 .scales{background:url("../images/scales.svg") no-repeat;display:block;width:100px;height:100px;margin:20px auto;}
+.reebok{background:url("../images/reebokwhite.png") no-repeat;display:block;width:150px;height:100px;margin:20px auto;}
 .about{background:#FFF;min-height:480px;padding:80px 20px;position:relative;}
 .about-image{background:url("../images/about.jpg") no-repeat;background-size:cover;background-position:50% 50%;background-color:#4a4a4a;position:absolute;top:0;right:0;bottom:0;left:0;}
 .mobile-img{display:none;}
