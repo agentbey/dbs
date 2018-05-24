@@ -42,7 +42,7 @@ img{border-style:none;max-width:100%;height:auto;}
 .contact h2{color:#FFF;text-transform:uppercase;letter-spacing:.1em;}
 .contact h3{color:#FFFFFF;}
 .contact p{color:#FFF;font-size:100%;font-weight:300;}
-.features .one-third.column{background:#00bcd4;height:480px;padding:40px;text-align:center;margin:0;}
+.features .one-third.column{background:#00bcd4;height:300px;padding:40px;text-align:center;margin:0;}
 .one-third.column.feature-bg-image1{background:url("../images/feature-1.jpg") no-repeat;background-size:cover;background-position:50% 50%;}
 .one-third.column.feature-bg-image2{background:url("../images/feature-2.jpg") no-repeat;background-size:cover;background-position:50% 50%;}
 .one-third.column.feature-bg-image3{background:url("../images/feature-3.jpg") no-repeat;background-size:cover;background-position:50% 50%;}
