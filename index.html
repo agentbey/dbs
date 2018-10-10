@@ -23,10 +23,12 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
     <!-- js -->
     <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
     <script type="text/javascript" src="js/deznx.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
 
     <!-- Favicon-->
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -86,10 +88,10 @@
 <!-- SECTION HERO -->
 <section id="hero" class="hero">
         <div class="flex-grid-half">
-            <div class="col">
+            <div class="col wow bounceInLeft">
                 <img src="images/hero-2.png" alt="Hero Image" height="480px" width="480px">
             </div>
-            <div class="col">
+            <div class="col wow slideInRight">
                 <h1 class="headline">It’s Different<br/>At This Level</h1>
                 <a href="#about" class="button">Get started now</a>
                 <h2>Call 267-586-9504 to schedule<br/> a personal consult today.</h2>
@@ -101,7 +103,7 @@
 <section id="about" class="about u-full-width">
     <div class="about-image"></div>
         <div class="flex-grid-half">
-                <div class="col">
+                <div class="col wow fadeInLeft">
                     <h1 style="text-align:center;">Mika'il Abdul-Karim, BMS</h1>
 
                     <p class="mobile-img"><img src="images/about-image.jpg" alt="" height="320px" width="480px"></p>
@@ -119,10 +121,10 @@
     <div class="container">
         <div class="row add-bottom">
             <div class="twelve columns">
-                <h3 class="center boxed">UPCOMING BOOK</h3>
+                <h3 class="center boxed wow bounceInDown">UPCOMING BOOK</h3>
             </div>
         </div>
-        <div class="center row">
+        <div class="center row wow slideInRight">
           <h2>Smart Choices authored by Mika’il Abdul-Karim</h2>
         </div>
         </div>
@@ -131,7 +133,7 @@
 
 <!-- SECTION VIDEOS -->
 <section id="videos" class="videos">
-    <h3 class="center boxed">OUR VIDEOS</h3>
+    <h3 class="center boxed wow bounceInDown">OUR VIDEOS</h3>
     <div class="flex-grid-half">
         <div class="col">
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/0roaPtlq02M" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
@@ -140,18 +142,18 @@
         </div>
     </div>
         <div class="flex-grid-half">
-            <div class="col">
+            <div class="col wow fadeInUp">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/hIrTsNFO6Xk?start=200" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
             </div>
-            <div class="col">
+            <div class="col wow fadeInUp">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/bVbtPAjZUx4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
         <div class="flex-grid-half">
-            <div class="col">
+            <div class="col wow fadeInUp">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/UN8ZeRJvxwA?rel=0&amp;start=1264" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
             </div>
-            <div class="col">
+            <div class="col wow fadeInUp">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/Q-nGv2wUW_w" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
@@ -163,10 +165,10 @@
     <div class="container">
         <div class="row add-bottom">
             <div class="twelve columns">
-                <h3 class="center boxed">OUR SERVICES</h3>
+                <h3 class="center boxed wow bounceInDown">OUR SERVICES</h3>
             </div>
         </div>
-        <div class="row">
+        <div class="row wow fadeInRight">
             <div class="one-third column">
                 <div class="repeater"><div class="reebok"></div>
                     <h2 class="center">REEBOK BOOT CAMPS</h2>
@@ -183,7 +185,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row  wow fadeInLeft">
             <div class="four columns">
                 <div><div class="scales"></div>
                     <h2 class="center">WEIGHT MANAGEMENT</h2>
@@ -211,7 +213,7 @@
 <!-- SECTION TESTIMONIALS -->
 <section id="testimonial" class="testimonial">
     <div class="container">
-        <div class="twelve columns">
+        <div class="twelve columns wow fadeIn">
             <h1>What Are Clients Saying?</h1>
             <div id="rotate">
                 <div class="section-center" style="display: none;">
@@ -246,7 +248,7 @@
 
 <!-- SECTION CONTACT  -->
 <section id="contact" class="contact">
-    <div class="row">
+    <div class="row wow fadeIn">
         <div class="one-half column contact-bg-image1"></div>
         <div class="one-half column contact-bg-image2">
             <h3 class="center boxed">CONTACT US</h3>
@@ -270,7 +272,7 @@
 
 <!-- SECTION FEATURES  -->
 <section id="features" class="features">
-    <div class="row">
+    <div class="row wow fadeIn">
         <div class="one-third column fit feature-bg-image1"></div>
             <div class="one-third column fit feature-bg-image3">
                 <div class="row bottom">
@@ -281,5 +283,22 @@
         </div>
     <div class="scrollToTop"><a href="#top" role="button">╱╲</a></div>
 </section>
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
 </body>
 </html>
