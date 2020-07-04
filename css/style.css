@@ -408,22 +408,16 @@ img{
 	background:#24002b;
 	padding:0;
 	position:relative;
-	min-height:540px
 }
 .col.no-padding{
 	padding-top:0!important
 }
-.col.contact-bg-image1{
-	background:url(../images/map.jpg) no-repeat;
+.col.contact-bg-image{
+	background:url(../images/contact-01.jpg) no-repeat;
 	background-size:cover;
 	background-position:50% 50%;
 	padding:40px 20px;
 	min-height:480px
-}
-.contact-bg-image2{
-	background:url(../images/contact-1.jpg) no-repeat;
-	background-size:cover;
-	background-position:50% 50%
 }
 .contact h1{
 	margin-bottom:60px
