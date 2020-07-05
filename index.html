@@ -22,12 +22,35 @@
     <!-- CSS -->
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-    <!-- js -->
-    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
-    <script type="text/javascript" src="js/deznx.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
+      <style>
+        .nav-btn.prev-slide {
+            color: #000000;
+            left: -40px;
+            position: absolute;
+            top: 33%;
+            letter-spacing: 0px;
+            transform: rotate(-90deg);
+            font-size: .8em;
+        }
+        .nav-btn.prev-slide:hover,.nav-btn.next-slide:hover {
+            color: red;
+        }
+        .nav-btn.next-slide {
+            color: #000000;
+            right: -40px;
+            position: absolute;
+            top: 33%;
+            letter-spacing: 0px;
+            transform: rotate(90deg);
+            font-size: .8em;
+        }
+        .owl-theme .owl-dots .owl-dot {
+            margin-bottom: 0;
+        }
+      </style>
 
     <!-- Favicon-->
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -218,44 +241,31 @@
     </div>
 </section>
 
-
-<!-- SECTION MISSION STATEMENT -->
-<section id="mission" class="mission">
-  <div class="flex-grid-half">
-    <div class="col mission-bg-image1 wow fadeIn"></div>
-    <div class="col color-block-red vh-align-center wow fadeIn">
-      <h1 class="wow slideInRight">Hard Work <br />Dedication<br /> No Procrastination</h1>
-    </div>
-  </div>
-</section>
-
 <!-- SECTION TESTIMONIALS -->
 <section id="testimonial" class="testimonial">
-    <div class="container">
-        <div class="row wow fadeIn">
-            <h1>What Are Clients Saying?</h1>
-            <div id="rotate">
-                <div class="section-center" style="display: none;">
-                     <blockquote>
-                         <h2>I was in a dark place with my weight gain and lack of physical activity.  After noticing the amount of weight lost by a principal colleague, I inquired  what program she doing to look so good. She referred me to Mika'il. The first consultation was informative. Mika'il was attentive and straight forward. He informed me he could help me reach my weight loss and fitness goals, if I was ready to do the work. I did not hesitate to join his program. The trainers are talented, efficient and respectable. I am pleased with the high quality of service I receive from Diverse Body Sculpting. My dark place becomes brighter each day with healthy eating and personal physical training by Diverse Body Sculpturing.</h2>
-      			       <p class="quote-author">Michelle Burns</p>
-                   </blockquote>
-      	        </div>
-      	<div class="section-center" style="display: none;">
-      		<blockquote>
-      			<h2>I'm a chiropractor in the Manayunk section of Philadelphia and I highly recommend anyone that's looking for wellness. Muscle gain or weight loss should try Mikail for personal training nutrition herbs etc. this guy can look at your hand and tell you what you eat! And he can  help you with your health in its totality. Please call him. Please do yourself a favor can call Mik the trainer👍🏽</h2>
-      			<p class="quote-author">Jason Lazaroff</p>
-      		</blockquote>
-      	</div>
-      	<div class="section-center" style="display: none;">
-      		<blockquote>
-      			<h2>I’ve been training at DBS for a little over a month now and I am very pleased with what I’ve experienced. Mika’il is very knowledgeable and passionate at what he does. Each training session I’ve been to he has always been pleasant and professional towards me and anyone else who may be coming or leaving his establishment. Mika’il created a training program that fits my physical capabilities and before we start each training session he has always asked me how I feel, it anything hurts. Communication is always open. If I have a question regarding the meal plan, he always responds back within a reasonable amount of time, whether it’s through text or phone call. Mika’il is a very pleasant person and is very dedicated to his clients. So glad I decided to give his gym a try!!</h2>
-      			<p class="quote-author">Vaune Jones</p>
-      		</blockquote>
-      	</div>
+<div class="container">
+    <h1>What Are Clients Saying?</h1>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <blockquote>
+           <h2>I was in a dark place with my weight gain and lack of physical activity.  After noticing the amount of weight lost by a principal colleague, I inquired  what program she doing to look so good. She referred me to Mika'il. The first consultation was informative. Mika'il was attentive and straight forward. He informed me he could help me reach my weight loss and fitness goals, if I was ready to do the work.</h2> <h2>I did not hesitate to join his program. The trainers are talented, efficient and respectable. I am pleased with the high quality of service I receive from Diverse Body Sculpting. My dark place becomes brighter each day with healthy eating and personal physical training by Diverse Body Sculpturing.</h2>
+        <p class="quote-author">Michelle Burns</p>
+        </blockquote>
       </div>
-    </div>
+    	<div class="item">
+    		<blockquote>
+    			<h2>I'm a chiropractor in the Manayunk section of Philadelphia and I highly recommend anyone that's looking for wellness. Muscle gain or weight loss should try Mikail for personal training nutrition herbs etc. this guy can look at your hand and tell you what you eat! And he can  help you with your health in its totality. Please do yourself a favor, call Mik the trainer👍🏽</h2>
+    			<p class="quote-author">Jason Lazaroff</p>
+    		</blockquote>
+    	</div>
+    	<div class="item">
+    		<blockquote>
+    			<h2>I’ve been training at DBS for a little over a month now and I am very pleased with what I’ve experienced. Mika’il is very knowledgeable and passionate at what he does. Each training session I’ve been to he has always been pleasant and professional towards me and anyone else who may be coming or leaving his establishment.</h2> <h2>Mika’il created a training program that fits my physical capabilities and before we start each training session he has always asked me how I feel, it anything hurts. Communication is always open. If I have a question regarding the meal plan, he always responds back within a reasonable amount of time, whether it’s through text or phone call. Mika’il is a very pleasant person and is very dedicated to his clients. So glad I decided to give his gym a try!!</h2>
+    			<p class="quote-author">Vaune Jones</p>
+    		</blockquote>
+    	</div>
   </div>
+</div>
 </section>
 <!-- SECTION MAP  -->
 <section id="map" class="map">
@@ -299,6 +309,11 @@
     <div class="scrollToTop"><a href="#top" role="button">╱╲</a></div>
   </div>
 </section>
+
+<!-- js -->
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/deznx.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
   <script>
   wow = new WOW(
       {
@@ -310,6 +325,29 @@
     }
     )
     wow.init();
+  </script>
+
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+  <script>
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        dots:true,
+        autoplay:false,
+        navText:["<div class='nav-btn prev-slide'>╱╲</div>","<div class='nav-btn next-slide'>╱╲</div>"],
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
   </script>
 
 </body>
