@@ -286,6 +286,19 @@ img{
 	min-height:480px;
 	transition:1s
 }
+.mikail-bio-image{
+	background:url(../images/bio-mikail.jpg) no-repeat;
+	background-size:cover;
+	background-position:50% 50%;
+	min-height:480px;
+	transition:1s
+}
+.bio .flex-grid-half .col:nth-child(2) {
+    padding: 60px 30px;
+}
+.bio .flex-grid-half .col {
+    padding: 0;
+}
 .team h2.center{
 	font-weight:700;
 	color:#fff;
@@ -478,6 +491,8 @@ img{
 .testimonial h1 {
     text-align: center;
     color: #ff2925;
+    font-size: 28px;
+		text-transform:uppercase;
 }
 .testimonial h2{
 	font-size:1em;
@@ -489,7 +504,7 @@ img{
 	font-weight: 600;
 	letter-spacing:.3em;
 	text-transform:uppercase;
-	text-align: right;
+	text-align: center;
 }
 .footer{
 	background-color:#000;
