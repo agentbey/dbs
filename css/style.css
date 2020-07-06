@@ -706,6 +706,10 @@ img{
 	.hero h2{
 		font-size:1.3em
 }
+.bio-hero {
+    padding: 20px;
+		height: 100%;
+}
 	.testimonial h2{
 		font-size:18px
 }
