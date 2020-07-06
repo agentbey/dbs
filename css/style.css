@@ -212,7 +212,8 @@ img{
 	font-size:60px;
 	color:#fff;
 	text-transform:uppercase;
-	text-align:center
+	text-align:center;
+  margin-bottom: 0;
 }
 .col.mission-bg-image1{
 	background:url(../images/hardwork-01.jpg) no-repeat;
@@ -617,7 +618,6 @@ img{
 		font-size:52px
 }
 	.hero{
-		padding:20px;
 		height:auto
 }
 	.mission h1{
