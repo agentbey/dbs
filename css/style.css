@@ -716,4 +716,7 @@ img{
 	.button-primary{
 		display:none
 }
+.nav-btn.next-slide, .nav-btn.prev-slide {
+    display: none;
+}
 }
