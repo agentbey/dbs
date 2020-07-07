@@ -701,7 +701,7 @@ img{
 		position:inherit
 }
 	.hero{
-		min-height:480px
+		padding: 20px 0;
 }
 	.hero h2{
 		font-size:1.3em
