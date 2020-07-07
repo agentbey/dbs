@@ -215,6 +215,11 @@ img{
 	text-align:center;
   margin-bottom: 0;
 }
+.vertically-center {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
 .col.mission-bg-image1{
 	background:url(../images/hardwork-01.jpg) no-repeat;
 	background-size:cover;
@@ -718,5 +723,10 @@ img{
 }
 .nav-btn.next-slide, .nav-btn.prev-slide {
     display: none;
+}
+.vertically-center {
+    top: 0;
+    transform: none;
+    position: inherit;
 }
 }
