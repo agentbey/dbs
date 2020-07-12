@@ -468,6 +468,9 @@ img{
 	padding:80px 40px;
 	position:relative
 }
+.media .flex-grid .col {
+    padding: 10px;
+}
 .about{
 	background:#fff;
 	min-height:480px;
@@ -488,9 +491,8 @@ img{
 .mobile-img{
 	display:none
 }
-
 .testimonial{
-	background-color:#fbfaf6;
+	background-color:#f1f1f1;
 	color:#424242;
 	position:relative;
 	min-height:480px;
@@ -499,7 +501,7 @@ img{
 .testimonial h1 {
     text-align: center;
     color: #ff2925;
-    font-size: 28px;
+    font-size: 26px;
 		text-transform:uppercase;
 }
 .testimonial h2{
