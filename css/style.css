@@ -240,6 +240,19 @@ img{
 .cta {
     padding: 60px 20px;
 }
+
+.healthcare {
+    color: #FFFFFF;
+    padding: 80px 40px 0;
+}
+
+.healthcare h1{
+	font-weight:700;
+	font-family:montserrat,sans-serif;
+	font-size:28px;
+	margin: 0;
+}
+
 .team{
 	margin:0;
 	position:relative;
