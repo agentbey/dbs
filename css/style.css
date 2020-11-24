@@ -240,12 +240,10 @@ img{
 .cta {
     padding: 60px 20px;
 }
-
 .healthcare {
     color: #FFFFFF;
-    padding: 80px 40px 0;
+    padding: 80px 40px 40px;
 }
-
 .healthcare h1{
 	font-weight:700;
 	font-family:montserrat,sans-serif;
@@ -253,6 +251,9 @@ img{
 	margin: 0;
 }
 
+.full-width {
+	max-width: 100%;
+}
 .team{
 	margin:0;
 	position:relative;
@@ -717,7 +718,13 @@ img{
 		transition:all .3s;
 		backface-visibility:hidden
 }
+.healthcare .flex-grid-half .col, .healthcare .flex-grid-thirds .col {
+    width: 100%;
+    text-align: left;
+    padding: 20px 0 0;
 }
+}
+
 @media screen and (max-width:768px){
 	header{
 		position:inherit
