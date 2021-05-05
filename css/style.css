@@ -251,6 +251,18 @@ img{
 	margin: 0;
 }
 
+.massagebook {
+    color: #000000;
+    padding: 60px 40px 40px;
+		background: #FFFFFF;
+}
+.massagebook h1{
+	font-weight:700;
+	font-family:montserrat,sans-serif;
+	font-size:32px;
+	margin: 0;
+}
+
 .full-width {
 	max-width: 100%;
 }
