@@ -626,6 +626,8 @@ img{
 	padding:0 10px
 }
 
+.socialicon {padding-right: 30px;}
+
 @media (max-width:1024px){
 	.col p{
 		text-align:center
